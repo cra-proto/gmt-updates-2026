@@ -23,9 +23,9 @@ creator:
   fr: "Agence du revenu du Canada"
 
 # Custom settings
-developerOptions: false
+developerOptions: true
 devOptionsLocStore: "gitCRATemplateDevOptions"
-exitByURL: true
+exitByURL: false
 exitPage:
   en: "/gmt-updates-2026/source/exit-intent-e.html"
   fr: "/gmt-updates-2026/source/exit-intent-f.html"
