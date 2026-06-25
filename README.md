@@ -37,7 +37,7 @@ flowchart TD;
     node4(Global minimum tax)
     node5(About the tax)
     node6(Contact us)
-    node7(Get ready to file)
+    node7(File the returns)
     node8(Payments)
     node9(Registering for an account)
     node10(Who must file a return or notification)
@@ -56,7 +56,7 @@ flowchart TD;
     click node4 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax.html" _blank
     click node5 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html" _blank
     click node6 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/contact.html" _blank
-    click node7 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/get-ready-file.html" _blank
+    click node7 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/file-returns.html" _blank
     click node8 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/pay-the-tax.html" _blank
     click node9 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/register-account.html" _blank
     click node10 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/who-must-file.html" _blank
