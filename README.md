@@ -39,7 +39,7 @@ flowchart TD;
     node6(Contact us)
     node7(File the returns)
     node8(Payments)
-    node9(Registering for an account)
+    node9(Register for an account)
     node10(Who must file a return or notification)
     node1 --> node2
     node2 --> node3
