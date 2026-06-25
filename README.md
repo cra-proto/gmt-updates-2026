@@ -56,7 +56,7 @@ flowchart TD;
     click node4 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax.html" _blank
     click node5 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html" _blank
     click node6 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/contact.html" _blank
-    click node7 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/file-returns.html" _blank
+    click node7 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/file-your-returns.html" _blank
     click node8 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/pay-the-tax.html" _blank
     click node9 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/register-account.html" _blank
     click node10 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/who-must-file.html" _blank
