@@ -48,19 +48,27 @@
     "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/contact.html"
   },
   {
-    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/inscrire-compte.html",
-    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/inscrire-compte.html"
-  },
-  {
-    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/payer-impot.html",
-    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/payer-impot.html"
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/contact/impot-minimum-mondial-questions-reponses.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/contact/impot-minimum-mondial-questions-reponses.html"
   },
   {
     "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/preparez-a-produire.html",
     "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/preparez-a-produire.html"
   },
   {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/payer-impot.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/payer-impot.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/inscrire-compte.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/inscrire-compte.html"
+  },
+  {
     "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/qui-doit-produire.html",
     "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/qui-doit-produire.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/demander-interpretation-technique.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/demander-interpretation-technique.html"
   }
 ]
