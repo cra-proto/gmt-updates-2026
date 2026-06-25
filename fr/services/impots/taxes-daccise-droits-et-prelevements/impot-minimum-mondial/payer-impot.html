@@ -1,0 +1,203 @@
+---
+layout: without-h1
+title: "Paiements"
+description: ""
+subject: ""
+keywords: ""
+auth:
+  type: "contextual"
+  label: "Se connecter"
+  labelExtended: "Se connecter à l'ARC"
+  link: "https://www.canada.ca/fr/agence-revenu/services/services-electroniques/services-ouverture-session-arc.html"
+lang: fr
+feedbackPath: https://www.canada.ca/etc/designs/canada/wet-boew/assets/feedback/page-feedback-fr.html
+privacyUrl: https://www.canada.ca/fr/agence-revenu/organisation/avis-confidentialite.html
+termsURL: https://www.canada.ca/fr/transparence/avis.html
+sitemenuPath: https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-fr.html
+contextualFooter:
+  title: "Agence du revenu du Canada (ARC)"
+  links:
+    - text: "Contacter l'ARC"
+      url: "https://www.canada.ca/fr/agence-revenu/organisation/coordonnees.html"
+    - text: "Mettre à jour vos renseignements"
+      url: "https://www.canada.ca/fr/agence-revenu/services/mettre-a-jour-renseignements-arc.html"
+    - text: "À propos de l'ARC"
+      url: "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc.html"
+pageclass: cnt-wdth-lmtd
+altLangPage: "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/pay-the-tax.html"
+dateModified: 2026-05-13
+dateIssued: 2026-05-13
+breadcrumbs: # By default the Canada.ca crumbs is already set
+  - title: "Impôts"
+    link: "https://www.canada.ca/fr/services/impots.html"
+  - title: "Taxes d’accise et taxes spéciales"
+    link: "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements.html"
+  - title: "Impôt minimum mondial"
+    link: "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial.html"
+feedbackData:
+  section: "Paiements"
+notedlinks:
+  - title: "Paiements"
+    link: "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/payer-impot.html"
+  - title: "Repository sitemap"
+    link: "https://cra-proto.github.io/gmt-updates-2026/index.html"
+---
+
+
+<nav class="provisional gc-subway">
+    <h1>Impôt minimum mondial</h1>
+    <ul>
+        <li><a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/a-propos.html">À propos de l’impôt</a></li>
+        <li><a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/inscrire-compte.html">Vous inscrire à un compte</a></li>
+        <li><a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/qui-doit-produire.html">Qui doit produire une déclaration ou une notification</a></li>
+        <li><a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/preparez-a-produire.html">Préparez-vous à produire votre déclaration ou notification</a></li>
+        <li><a class="active" href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/payer-impot.html">Paiements</a></li>
+        <li><a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/contact.html">Nous joindre</a></li>
+    </ul>
+</nav>
+<h1 property="name" id="wb-cont" class="gc-thickline">Paiements</h1>
+<p>
+    L’impôt à payer pour une année financière doit être payé au plus tard à la
+    <a class="wb-lbx" title="Dates d’échéance pour produire une déclaration ou une notification" href="#drg-mdl" role="button" aria-controls="drg-mdl"
+        >date limite de production de la déclaration de renseignements GloBE <span class="nowrap">(DRG)<span class="mrgn-lft-sm far fa-question-circle"></span></span
+    ></a>
+    de l’année financière.
+</p>
+<nav role="navigation">
+    <h2>Sur cette page</h2>
+    <ul>
+        <li><a href="#toc0">Comment payer l’impôt</a></li>
+        <li><a href="#toc1">Défaut de payer l’impôt</a></li>
+    </ul>
+</nav>
+<script type="text/javascript">
+    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
+    window.onload = function() {
+        var hTags = ['H2','H2'];
+        var hText = ['Comment payer l\u2019imp\u00F4t','D\u00E9faut de payer l\u2019imp\u00F4t'];
+        if(typeof hTags != 'undefined' && hTags != null){
+            for(var i = 0; i < hTags.length; i++){
+                var tags = document.querySelectorAll(hTags[i].toLowerCase());
+    if(typeof tags != 'undefined' && tags != null){
+                    for(var j = 0; j < tags.length; j++){
+                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
+                        // hence removing backslash for creating equal comparison in order to add id reference
+                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
+    			if(!tags[j].id) {
+    				tags[j].setAttribute('id', 'toc'+i);
+    				break;
+    			}
+                        }
+                    }
+                }
+            }
+        }
+    };
+</script>
+<h2>Comment payer l’impôt</h2>
+<p>Deux options sont disponibles pour payer l’impôt minimum mondial :&nbsp;</p>
+<ul>
+    <li><strong>virements télégraphiques;</strong></li>
+    <li>
+        <strong>paiements en ligne par l’intermédiaire de votre banque ou de votre coopérative de crédit à compter du <span class="nowrap">11 mai 2026</span> (vérifiez auprès de votre institution financière si elle offre cette option).</strong>
+    </li>
+</ul>
+<h3>Virements télégraphiques</h3>
+<p>Communiquez avec votre banque ou coopérative de crédit pour commencer le virement télégraphique.</p>
+<p>La Banque Scotia traite les virements télégraphiques au Canada. Elle n’impose aucuns frais pour l’envoi de votre virement télégraphique à l’ARC.</p>
+<p>Vous <strong>devez</strong> faire tout virement télégraphique à l’ARC en <strong>dollars canadiens</strong>.</p>
+<p>Votre institution financière pourrait vous imposer des frais pour ce service. Assurez-vous qu’elle <strong>ne déduit pas les frais de virement télégraphique</strong> du montant total du paiement, puisqu’il en résultera un paiement insuffisant d’impôt.</p>
+<h3>Envoyez les détails de votre versement</h3>
+<p>Après l’envoi de votre virement télégraphique, envoyez les détails de votre versement à la Section du traitement des recettes de l’ARC <strong>par télécopieur</strong> au 204-983-0924.</p>
+<p>Les détails du versement doivent comprendre :&nbsp;</p>
+<ul>
+    <li>le nom de l’entreprise qui fait le paiement;</li>
+    <li>le numéro de compte de programme d’impôt minimum mondial (PT) du payeur;</li>
+    <li>le nom, le poste ou la fonction, le numéro de téléphone et le numéro de poste de la personne-ressource principale du payeur;</li>
+    <li>la date du paiement;</li>
+    <li>le montant du paiement;</li>
+    <li>l’année financière à laquelle le paiement se rapporte.</li>
+</ul>
+<p>Si une entité nommée effectue un paiement au nom d’autres membres du groupe, veuillez fournir les renseignements suivants pour chaque membre :</p>
+<ul>
+    <li>le nom de l’entreprise;</li>
+    <li>le numéro de compte de programme PT;</li>
+    <li>la partie du paiement attribuée à l’entreprise.</li>
+</ul>
+<p>Pour en savoir plus sur la façon d’envoyer un virement télégraphique, allez à <a href="https://www.canada.ca/fr/agence-revenu/services/a-propos-agence-revenu-canada-arc/payer-virement-telegraphique-non-residents.html">Payez à une banque ou une coopérative de crédit étrangère par virement télégraphique</a>.</p>
+<h3>Payez en ligne par l’intermédiaire de votre banque ou de votre coopérative de crédit</h3>
+<p>Vous pouvez faire un paiement à l’ARC ou planifier une série de paiements futurs en ouvrant une session dans le site Web ou l’application mobile des services bancaires en ligne de la plupart des banques ou coopératives de crédit canadiennes.</p>
+<p>Vérifiez si votre banque ou votre coopérative de crédit permet aux entreprises de faire un paiement à l’ARC en ligne.</p>
+<p>Connectez-vous au service de production de déclarations ou aux services bancaires en ligne pour les entreprises de votre banque ou de votre coopérative de crédit.</p>
+<p>Assurez-vous de choisir la bonne option lorsqu’on vous demande d’indiquer le bénéficiaire du paiement afin que l’ARC attribue celui-ci au bon compte.</p>
+<p>Suivez les instructions; elles devraient vous demander d’entrer votre numéro de compte de programme PT.</p>
+<p>Pour en savoir plus sur le paiement en ligne par l’intermédiaire de votre banque ou de votre coopérative de crédit, allez à <a href="https://www.canada.ca/fr/agence-revenu/services/a-propos-agence-revenu-canada-arc/payer-moyen-services-bancaires-ligne.html">Payer en ligne par l’intermédiaire de votre banque ou de votre coopérative de crédit</a>.</p>
+<h2>Défaut de payer l’impôt</h2>
+<p>Si vous omettez de faire un paiement, des intérêts seront imposés à compter du jour où le paiement était dû. Le taux d’intérêt qu’utilise l’ARC est fixé tous les trois mois, selon les taux d’intérêt prescrits, et il est composé quotidiennement.&nbsp;</p>
+<p>Pour en savoir plus, allez à <a href="https://www.canada.ca/fr/agence-revenu/services/impot/taux-interet-prescrits.html">Taux d’intérêt prescrits</a>.</p>
+<section id="drg-mdl" class="mfp-hide modal-dialog modal-content overlay-def">
+    <header class="modal-header">
+        <h2 class="modal-title">Dates d’échéance pour produire une déclaration ou une notification</h2>
+    </header>
+    <div class="modal-body">
+        <p>En règle générale, les dates d’échéance ci-dessous s’appliqueront de façon continue :</p>
+        <ul>
+            <li>
+                18 mois après le dernier jour de l’année financière, s’il s’agit de la première année financière durant laquelle une entité du groupe d’EMN admissible est assujettie à :
+                <ul>
+                    <li>la partie 3 de la Loi;</li>
+                    <li>une <a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/preparez-a-produire.html#iirr">règle d’inclusion du revenu (RDIR) admissible </a>;</li>
+                    <li>une <a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/preparez-a-produire.html#utprr">règle relative aux profits insuffisamment imposés (RPII)</a> admissible.</li>
+                </ul>
+            </li>
+            <li>15 mois après le dernier jour de l’année financière, dans tous les autres cas.</li>
+        </ul>
+        <p>Pour les années financières commençant le 31 décembre 2023 ou après, et se terminant le 31 décembre 2024 ou avant, la date d’échéance de production pour <a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/qui-doit-produire.html#prn">la notification ou les déclarations prescrites</a> est le 30 juin 2026.</p>
+    </div>
+</section>
+<!-- Pagination -->
+<div class="row">
+    <div class="col-md-8">
+        <nav class="gc-subway-pagination">
+            <h2 class="wb-inv">Navigation du document</h2>
+            <ul class="pager">
+                <li class="next">
+                    <a href="https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/contact.html" rel="next"><span class="wb-inv">Suivant : </span>Nous joindre</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<script>
+
+    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
+    window.onload = function() {
+
+        var hTags = ['H2','H2'];
+        var hText = ['Comment payer l\u2019imp\u00F4t','D\u00E9faut de payer l\u2019imp\u00F4t'];
+
+        if(typeof hTags != 'undefined' && hTags != null){
+            for(var i = 0; i < hTags.length; i++){
+                var tags = document.querySelectorAll(hTags[i].toLowerCase());
+                
+				if(typeof tags != 'undefined' && tags != null){
+                    for(var j = 0; j < tags.length; j++){
+                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
+                        // hence removing backslash for creating equal comparison in order to add id reference
+                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
+							if(!tags[j].id) {
+								tags[j].setAttribute('id', 'toc'+i);
+								break;
+							}
+                        }
+                    }
+                }
+            }
+        }
+
+    };
+
+
+</script>
+<script>_satellite.pageBottom();</script>
