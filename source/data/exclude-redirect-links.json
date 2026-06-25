@@ -1,0 +1,58 @@
+[
+  {
+    "origin": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax.html",
+    "destination": "/gmt-updates-2026/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html",
+    "destination": "/gmt-updates-2026/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/contact.html",
+    "destination": "/gmt-updates-2026/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/contact.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/get-ready-file.html",
+    "destination": "/gmt-updates-2026/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/get-ready-file.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/pay-the-tax.html",
+    "destination": "/gmt-updates-2026/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/pay-the-tax.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/register-account.html",
+    "destination": "/gmt-updates-2026/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/register-account.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/who-must-file.html",
+    "destination": "/gmt-updates-2026/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/who-must-file.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/a-propos.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/a-propos.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/contact.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/contact.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/preparez-a-produire.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/preparez-a-produire.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/payer-impot.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/payer-impot.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/inscrire-compte.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/inscrire-compte.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/qui-doit-produire.html",
+    "destination": "/gmt-updates-2026/fr/services/impots/taxes-daccise-droits-et-prelevements/impot-minimum-mondial/qui-doit-produire.html"
+  }
+]
