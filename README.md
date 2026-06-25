@@ -37,29 +37,35 @@ flowchart TD;
     node4(Global minimum tax)
     node5(About the tax)
     node6(Contact us)
-    node7(File the returns)
-    node8(Payments)
-    node9(Register for an account)
-    node10(Who must file a return or notification)
+    node7(Global minimum tax: Questions and Answers)
+    node8(File your returns)
+    node9(Payments)
+    node10(Registering for an account)
+    node11(Who must file a return or notification)
+    node12(Request a technical interpretation)
     node1 --> node2
     node2 --> node3
     node3 --> node4
     node4 --> node5
     node4 --> node6
-    node4 --> node7
+    node6 --> node7
     node4 --> node8
     node4 --> node9
     node4 --> node10
+    node4 --> node11
+    node4 --x node12
     click node1 "https://www.canada.ca/en.html" _blank
     click node2 "https://www.canada.ca/en/services/taxes.html" _blank
     click node3 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies.html" _blank
     click node4 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax.html" _blank
     click node5 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html" _blank
     click node6 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/contact.html" _blank
-    click node7 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/file-your-returns.html" _blank
-    click node8 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/pay-the-tax.html" _blank
-    click node9 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/register-account.html" _blank
-    click node10 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/who-must-file.html" _blank
+    click node7 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/contact/global-minimum-tax-faq.html" _blank
+    click node8 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/file-your-returns.html" _blank
+    click node9 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/pay-the-tax.html" _blank
+    click node10 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/register-account.html" _blank
+    click node11 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/who-must-file.html" _blank
+    click node12 "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/request-technical-interpretation.html" _blank
     classDef inscope stroke:#7636ab,stroke-width:3px
-    class node4,node5,node6,node7,node8,node9,node10 inscope
+    class node4,node5,node6,node7,node8,node9,node10,node11,node12 inscope
 ```
