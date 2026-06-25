@@ -25,7 +25,7 @@ creator:
 # Custom settings
 developerOptions: true
 devOptionsLocStore: "gitCRATemplateDevOptions"
-exitByURL: false
+exitByURL: true
 exitPage:
   en: "/gmt-updates-2026/source/exit-intent-e.html"
   fr: "/gmt-updates-2026/source/exit-intent-f.html"
