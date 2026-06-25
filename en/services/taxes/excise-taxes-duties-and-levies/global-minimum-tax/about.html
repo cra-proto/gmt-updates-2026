@@ -52,35 +52,12 @@ notedlinks:
             <ul>
                 <li><a href="#toc2">Pillar Two</a></li>
                 <li><a href="#toc3">The Global Minimum Tax Act</a></li>
+                <li><a href="#toc4"><mark>Automatic exchange of GloBE Information Returns</mark></a></li>
             </ul>
         </li>
     </ul>
 </nav>
-<script type="text/javascript">
-    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
-    window.onload = function() {
-        var hTags = ['H2','H2','H3','H3'];
-        var hText = ['What is the global minimum tax','Background of the tax','Pillar Two','The Global Minimum Tax Act'];
-        if(typeof hTags != 'undefined' && hTags != null){
-            for(var i = 0; i < hTags.length; i++){
-                var tags = document.querySelectorAll(hTags[i].toLowerCase());
-    if(typeof tags != 'undefined' && tags != null){
-                    for(var j = 0; j < tags.length; j++){
-                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
-                        // hence removing backslash for creating equal comparison in order to add id reference
-                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
-    			if(!tags[j].id) {
-    				tags[j].setAttribute('id', 'toc'+i);
-    				break;
-    			}
-                        }
-                    }
-                }
-            }
-        }
-    };
-</script>
-<h2>What is the global minimum tax</h2>
+<h2 id="toc0">What is the global minimum tax</h2>
 <p>The tax ensures qualifying MNE groups are subject to a minimum effective tax rate on their profits in every jurisdiction they operate.</p>
 <p>
     This tax essentially operates as a top-up tax to ensure that a minimum effective tax rate of 15% applies to the profits of&nbsp;<a class="wb-lbx" title="qualifying multinational enterprise group" href="#qmne-mdl" role="button" aria-controls="qmne-mdl"
@@ -89,7 +66,7 @@ notedlinks:
 </p>
 <h2>Background of the tax</h2>
 <p>Canada is a member of the Organisation for Economic Co-operation and&nbsp;Development (OECD)&nbsp;and Group of 20 Inclusive Framework on Base Erosion and Profit Shifting (the Inclusive Framework). As a member, Canada joined a two-pillar plan for international tax reform. Pillar Two is a key part of the two-pillar plan.</p>
-<h3>Pillar Two</h3>
+<h3 id="toc2">Pillar Two</h3>
 <p>Pillar Two consists of rules that are generally intended to be implemented through changes to each country’s domestic tax laws. Members of the Inclusive Framework that implement Pillar Two are required to do so in a way that is consistent with the outcomes from:</p>
 <ul>
     <li><a href="https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html#rules">Global Anti-Base&nbsp;Erosion (GloBE)&nbsp;Model Rules</a></li>
@@ -97,10 +74,18 @@ notedlinks:
     <li><a href="https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html#administrative-guidance">Administrative Guidance on the GloBE Model Rules.</a></li>
 </ul>
 <p>These materials are approved by the Inclusive Framework and are published by the OECD.</p>
-<h3>The Global Minimum Tax Act</h3>
+<h3 id="toc3">The Global Minimum Tax Act</h3>
 <p>The Global Minimum Tax Act was enacted&nbsp;in 2024&nbsp;and applies to qualifying MNE groups for fiscal years that begin on or after&nbsp;December 31, 2023.</p>
 <p>Part 2 of the Act implements the Pillar Two Income Inclusion&nbsp;Rule (IIR)&nbsp;in the GloBE Model Rules. The IIR imposes liability for top-up tax on certain persons regarding a qualifying MNE group.</p>
 <p>Part 3 of the Act implements the domestic minimum top-up tax as provided in the GloBE Model Rules and further elaborated in the Commentary. It allows Canada to retain taxing rights on income sourced in Canada. It ensures any qualifying MNE groups with Canadian entities will pay the minimum rate of 15% tax in Canada with respect to those entities.</p>
+
+<h3 id="toc4"><mark>Automatic exchange of GloBE Information Returns</mark></h3>
+<p>The OECD published the <a href="https://www.oecd.org/tax/beps/multilateral-competent-authority-agreement-on-the-exchange-of-globe-information.htm">Multilateral Competent Authority Agreement on the Exchange of GloBE Information</a> (GIR-MCAA) in January 2025 to enable the automatic exchange of GloBE information under Article 6 of the Convention on Mutual Administrative Assistance in Tax Matters. Canada has signed the GIR-MCAA.</p>
+<p>The agreement generally becomes effective between Canada and another jurisdiction once both have signed and mutually listed each other as intended exchange partners. At this point, it operates as a Qualifying Competent Authority Agreement (QCAA) under the GloBE Model Rules.</p>
+<p>A full list of <a href="https://www.oecd.org/tax/beps/signatories-of-the-multilateral-competent-authority-agreement-on-the-exchange-of-globe-information.pdf">signatories of the GIR-MCAA</a>, as well as a list of <a href="https://www.oecd.org/tax/automatic-exchange/international-framework-for-the-crs/exchange-relationships/">automatic exchange relationships</a>, is available on the OECD website.</p>
+<h4><mark>How the automatic exchange relates to filing</mark></h4>
+<p>Canadian constituent entities of a qualifying MNE group may still need to file a GIR Notification with the CRA when a qualifying foreign filing entity files the complete GIR in a jurisdiction that has a QCAA in effect with Canada by the exchange deadline.</p>
+<p>For the filing steps and Canadian filing obligations, refer to: <a href="#">If the GIR is filed in another jurisdiction</a>.</p>
 <section id="qmne-mdl" class="mfp-hide modal-dialog modal-content overlay-def">
     <header class="modal-header">
         <h2 class="modal-title">Qualifying MNE groups</h2>
