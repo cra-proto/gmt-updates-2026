@@ -87,11 +87,10 @@ notedlinks:
     <li><a href="https://www.oecd.org/tax/beps/signatories-of-the-multilateral-competent-authority-agreement-on-the-exchange-of-globe-information.pdf">Signatories of the Multilateral Competent Authority Agreement on the Exchange of GloBE Information (GIR MCAA)</a></li>
     <li><a href="https://www.oecd.org/tax/automatic-exchange/international-framework-for-the-crs/exchange-relationships/">Automatic Exchange of Information – Exchange relationships</a></li>
 </ul>
-
 <h4><mark>How the automatic exchange relates to filing</mark></h4>
 <p>Canadian constituent entities of a qualifying MNE group may still need to file a GIR Notification with the CRA when a qualifying foreign filing entity files the complete GIR in a jurisdiction that has a QCAA in effect with Canada by the exchange deadline.</p>
 <p><strong>Note:</strong> Entities located <strong>outside</strong> of Canada <strong>can file</strong> the required GIR information directly with the CRA.</p>
-<p>For the filing steps and Canadian filing obligations, refer to: <a href="#nthr_jrsdctn">If the GIR is filed in another jurisdiction</a>.</p>
+<p>For the filing steps and Canadian filing obligations, refer to: <a href="/gmt-updates-2026/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/file-returns.html#nthr_jrsdctn">If the GIR is filed in another jurisdiction</a>.</p>
 <section id="qmne-mdl" class="mfp-hide modal-dialog modal-content overlay-def">
     <header class="modal-header">
         <h2 class="modal-title">Qualifying MNE groups</h2>
@@ -109,35 +108,3 @@ notedlinks:
                 </li>
             </ul>
         </nav>
-<script>
-
-    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
-    window.onload = function() {
-
-        var hTags = ['H2','H2','H3','H3'];
-        var hText = ['What is the global minimum tax','Background of the tax','Pillar Two','The Global Minimum Tax Act'];
-
-        if(typeof hTags != 'undefined' && hTags != null){
-            for(var i = 0; i < hTags.length; i++){
-                var tags = document.querySelectorAll(hTags[i].toLowerCase());
-                
-				if(typeof tags != 'undefined' && tags != null){
-                    for(var j = 0; j < tags.length; j++){
-                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
-                        // hence removing backslash for creating equal comparison in order to add id reference
-                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
-							if(!tags[j].id) {
-								tags[j].setAttribute('id', 'toc'+i);
-								break;
-							}
-                        }
-                    }
-                }
-            }
-        }
-
-    };
-
-
-</script>
-<script>_satellite.pageBottom();</script>
