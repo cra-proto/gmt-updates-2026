@@ -474,34 +474,3 @@ notedlinks:
             </ul>
         </nav>
 <script>
-
-    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
-    window.onload = function() {
-
-        var hTags = ['H2','H2','H2'];
-        var hText = ['Prescribed returns or notification','Who must file a GIR Notification or a GIR','Who must file a Global Minimum Tax Return'];
-
-        if(typeof hTags != 'undefined' && hTags != null){
-            for(var i = 0; i < hTags.length; i++){
-                var tags = document.querySelectorAll(hTags[i].toLowerCase());
-                
-				if(typeof tags != 'undefined' && tags != null){
-                    for(var j = 0; j < tags.length; j++){
-                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
-                        // hence removing backslash for creating equal comparison in order to add id reference
-                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
-							if(!tags[j].id) {
-								tags[j].setAttribute('id', 'toc'+i);
-								break;
-							}
-                        }
-                    }
-                }
-            }
-        }
-
-    };
-
-
-</script>
-<script>_satellite.pageBottom();</script>
