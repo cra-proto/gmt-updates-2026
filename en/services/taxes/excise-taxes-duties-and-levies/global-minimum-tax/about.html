@@ -24,8 +24,6 @@ notedlinks:
   - title: "About the tax"
     link: "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/global-minimum-tax/about.html"
 ---
-
-
 <nav class="provisional gc-subway">
     <h1>Global minimum tax</h1>
     <ul>
@@ -39,6 +37,54 @@ notedlinks:
 </nav>
 <h1 property="name" id="wb-cont" class="gc-thickline">About the tax</h1>
 <p>The global minimum tax is based on an international framework that aims to reduce the incentive for certain multinational enterprise (MNE) groups to shift profits to low-tax jurisdictions and sets a floor on tax competition.</p>
+
+<nav role="navigation">
+    <h2>On this page</h2>
+
+    <ul>
+        <li><a href="#toc0">What is the global minimum tax</a></li>
+
+        <li>
+            <a href="#toc1">Background of the tax</a>
+
+            <ul>
+                <li><a href="#toc2">Pillar Two</a></li>
+
+                <li><a href="#toc3">The Global Minimum Tax Act</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<script type="text/javascript">
+
+    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
+    window.onload = function() {
+
+        var hTags = ['H2','H2','H3','H3'];
+        var hText = ['What is the global minimum tax','Background of the tax','Pillar Two','The Global Minimum Tax Act'];
+
+        if(typeof hTags != 'undefined' && hTags != null){
+            for(var i = 0; i < hTags.length; i++){
+                var tags = document.querySelectorAll(hTags[i].toLowerCase());
+
+    if(typeof tags != 'undefined' && tags != null){
+                    for(var j = 0; j < tags.length; j++){
+                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
+                        // hence removing backslash for creating equal comparison in order to add id reference
+                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
+    			if(!tags[j].id) {
+    				tags[j].setAttribute('id', 'toc'+i);
+    				break;
+    			}
+                        }
+                    }
+                }
+            }
+        }
+
+    };
+</script>
 <nav role="navigation">
     <h2>On this page</h2>
     <ul>
