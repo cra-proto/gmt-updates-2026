@@ -38,10 +38,10 @@ flowchart TD;
     node5(About the tax)
     node6(Contact us)
     node7(Global minimum tax: Questions and Answers)
-    node8(File your returns)
+    node8(How to file)
     node9(Pay the tax)
     node10(Registering for an account)
-    node11(Who must file a return or notification)
+    node11(Who must file)
     node12(Request a technical interpretation)
     node1 --> node2
     node2 --> node3
