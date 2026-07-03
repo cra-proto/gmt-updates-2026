@@ -39,7 +39,7 @@ flowchart TD;
     node6(Contact us)
     node7(Global minimum tax: Questions and Answers)
     node8(How to file)
-    node9(Pay the tax)
+    node9(Paying the tax)
     node10(Registering for an account)
     node11(Who must file)
     node12(Request a technical interpretation)
